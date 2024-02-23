@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="site.css" rel="stylesheet">
+  <script src="app.js" defer></script>
+  <title>Calculate date</title>
+</head>
+<body>
+  <header>
+    <h1>Calculate the date and time</h1>
+  </header>
+  <main>
+    <section class="form">
+      <div class="form-header">
+      Input days, hours and minutes until deadline.
+      </div>
+      <form id="inputform">
+        <label for="days">Days</label>
+        <input type="number" name="days" placeholder="days" id="days">
+        <label for="hours">Hours</Habel>
+        <input type="number" name="hours" placeholder="hours" id="hours">       
+        <label for="minutes">Minutes</Mabel>
+        <input type="number" name="minutes" placeholder="minutes" id="minutes">
+        <input type="submit" value="calculate"></button>
+      </form>
+    </section>
+    <section class="display">
+      <div> Current Date:
+        <span id="display-date"></span>
+      </div>
+      <div> Days: 
+        <span id="display-days"></span>
+      </div>
+      <div> Hours: 
+        <span id="display-hours"></span>
+      </div>
+      <div> Minutes: 
+        <span id="display-minutes"></span>
+      </div>
+    </section>
+    <section class="calculations">
+      <div> Total hours: 
+        <span id="total-hours"></span>
+      </div>
+      <div> Total minutes: 
+        <span id="total-minutes"></span>
+      </div>
+      <div> Deadline date: 
+        <span id="deadline-date"></span>
+      </div>
+
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
